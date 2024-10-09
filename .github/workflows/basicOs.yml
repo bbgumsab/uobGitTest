@@ -41,7 +41,7 @@ jobs:
     - name: Checkout private repo remotely
       uses: actions/checkout@v4
       with:
-        repository: bbgum/UOBHidden
+        repository: bbgumsab/UOBHidden
         path: hiddenfolder
         token: ${{ secrets.SECRETUOB }}
 
