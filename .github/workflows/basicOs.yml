@@ -3,7 +3,12 @@ on:
   push:
     branches:[main]
 
-Jobs:
+jobs:
   builds:
     runs-on: Ubuntu- 16.04
     name: My Build
+    
+    steps:
+    - name: Print a greeting
+      run:
+        echo "Helloo there"
