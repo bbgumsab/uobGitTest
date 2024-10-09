@@ -50,3 +50,4 @@ jobs:
         ls
         cd hiddenfolder
         ls
+        cat hiddenfolder
