@@ -42,7 +42,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: lowkh/UOBHidden
-        token: ${{ secrets.SECRETuob }}
+        token: ${{ secrets.SECRETUOB }}
 
     - name: Print out the hidden file 
       run: |
