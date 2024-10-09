@@ -26,4 +26,9 @@ jobs:
     - name: Check version of Python
       run: 
         python --version
+
+    - name: Install dependencies
+      run:
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirement
         
