@@ -12,3 +12,10 @@ jobs:
     - name: Print a greeting
       run:
         echo "Helloo there"
+
+    - name: Checkout my code
+      uses: action/checkout@c4
+    - name: print content
+      run: 
+        ls
+        
