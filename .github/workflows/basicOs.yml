@@ -42,8 +42,11 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: lowkh/UOBHidden
+        path: hiddenfolder
         token: ${{ secrets.SECRETUOB }}
 
     - name: Print out the hidden file 
       run: |
+        ls
+        cd hiddenfolder
         ls
