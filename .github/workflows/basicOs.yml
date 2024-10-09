@@ -36,3 +36,14 @@ jobs:
     - name: begin test
       run: |
         pytest
+
+    # access the hidden repo
+    - name: Checkout private repo remotely
+      uses: actions/checkout@v4
+      with:
+        repository: lowkh/UOBHidden
+        token: ${{ secrets.SECRETuob }}
+
+    - name: Print out the hidden file 
+      run: |
+        ls
